@@ -1,0 +1,11 @@
+schema {
+    query: query_root
+}
+
+type Query {
+    one: String
+}
+
+type query_root {
+    two: String
+}
